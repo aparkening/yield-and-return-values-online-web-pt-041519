@@ -1,5 +1,6 @@
 require 'pry'
 
+# Return array of yielded blocks
 def hello(array)
   i = 0
   collection = []
@@ -10,5 +11,4 @@ def hello(array)
   collection 
 end
 
-
-# hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
