@@ -1,6 +1,6 @@
 require 'pry'
 
-# Return array of yielded blocks
+# Emulate #collect method. Return array of yielded blocks.
 def hello(array)
   i = 0
   collection = []
